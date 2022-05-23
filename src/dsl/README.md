@@ -1,0 +1,1 @@
+See full documentation: your.jenkins.installation/plugin/job-dsl/api-viewer/index.html#method/javaposse.jobdsl.dsl.helpers.scm.GitContext.extensions
