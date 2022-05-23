@@ -13,9 +13,9 @@ job('nodejs-example') {
     // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
+        shell('echo Hello World!')
         shell('pwd')
-        dir('src/jenkins-docker-demo') {
-            shell('npm install')
-        }
+        shell('cd src/dsl/temp/')
+        shell('pwd')
     }
 }
